@@ -1,0 +1,1 @@
+console.log("My name is Jakub, I am Contributing in Hacktober Open Source Project")

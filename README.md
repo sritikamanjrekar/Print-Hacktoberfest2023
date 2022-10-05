@@ -1,7 +1,7 @@
 # Print-Hacktoberfest2022
-1.Print - "My name is yourname, I am Contributing in Hacktober Open Source Project" any language you can use. 
+1. Print - "My name is yourname, I am Contributing in Hacktober Open Source Project" any language you can use. 
 
-2.Do Starred Repo ⭐
+2. Do Starred Repo ⭐
 
 [![GitHub issues](https://img.shields.io/github/issues/sritikamanjrekar/Print-Hacktoberfest2022?style=for-the-badge)](https://github.com/sritikamanjrekar/Print-Hacktoberfest2022/issues)
 

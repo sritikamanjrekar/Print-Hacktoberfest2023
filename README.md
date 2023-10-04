@@ -3,11 +3,11 @@
 
 2. Do Starred Repo ⭐
 
-[![GitHub issues](https://img.shields.io/github/issues/sritikamanjrekar/Print-Hacktoberfest2022?style=for-the-badge)](https://github.com/sritikamanjrekar/Print-Hacktoberfest2022/issues)
+[![GitHub issues](https://img.shields.io/github/issues/sritikamanjrekar/Print-Hacktoberfest2022?style=for-the-badge)](https://github.com/sritikamanjrekar/Print-Hacktoberfest2023/issues)
 
-[![GitHub forks](https://img.shields.io/github/forks/sritikamanjrekar/Print-Hacktoberfest2022?style=for-the-badge)](https://github.com/sritikamanjrekar/Print-Hacktoberfest2022/network)
+[![GitHub forks](https://img.shields.io/github/forks/sritikamanjrekar/Print-Hacktoberfest2022?style=for-the-badge)](https://github.com/sritikamanjrekar/Print-Hacktoberfest2023/network)
 
-[![GitHub stars](https://img.shields.io/github/stars/sritikamanjrekar/Print-Hacktoberfest2022?style=for-the-badge)](https://github.com/sritikamanjrekar/Print-Hacktoberfest2022/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/sritikamanjrekar/Print-Hacktoberfest2022?style=for-the-badge)](https://github.com/sritikamanjrekar/Print-Hacktoberfest2023/stargazers)
 
 
 ---
@@ -20,12 +20,12 @@
 
 2. Clone the forked repository.
 ```css
-git clone https://github.com/<your-github-username>/Print-Hacktoberfest2022
+git clone https://github.com/<your-github-username>/Print-Hacktoberfest2023
 ```
   
 3. Navigate to the project directory.
 ```py
-cd Print-Hacktoberfest2022
+cd Print-Hacktoberfest2023
 ```
 
 4. Create a new branch.

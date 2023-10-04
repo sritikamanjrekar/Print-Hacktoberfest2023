@@ -1,2 +1,2 @@
-print("I am Contributing in Hacktober fest Open Source Project.")
-print("My name is Abhishek Thakur.")
+print("My name is yourname, I am Contributing in Hacktober Open Source Project")
+

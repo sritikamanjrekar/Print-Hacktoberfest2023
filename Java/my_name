@@ -1,0 +1,80 @@
+package linked_list;
+import java.util.Scanner;
+class Node
+{
+	protected int reg_no;
+	protected float marks;
+	protected Node next;
+}
+
+public class ass1 {
+	
+	static  Node start=null;
+	
+	public static  void create(Node value)
+	{	Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter the reg_no: ");
+		value.reg_no=sc.nextInt();
+		System.out.println("Enter marks: ");
+		value.marks=sc.nextFloat();
+		value.next=null;
+		start=value;
+		System.out.println("To exist enter 0 otherwise press anykey ");
+		int x=sc.nextInt();
+		while(x!=0)
+		{
+			Node curr=new Node();
+			System.out.println("Enter the reg_no: ");
+			curr.reg_no=sc.nextInt();
+			System.out.println("Enter marks: ");
+			curr.marks=sc.nextFloat();
+			curr.next=null;
+			value.next=curr;
+			value=curr;
+			System.out.println("To exist enter 0 otherwise press anykey ");
+			 x=sc.nextInt();
+			
+		}
+		
+	}
+	
+	public static void display(Node value)
+	{
+		System.out.println("The elements are ");
+		while(value!=null)
+		{
+			System.out.println("Reag_no : "+value.reg_no+" Marks "+value.marks);
+			value=value.next;
+			
+		}
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("****Menu****");
+		System.out.println("0. Exist");
+		System.out.println("1. Create & Display");
+		
+		int c=sc.nextInt();
+		switch(c)
+		{
+		case 0: System.exit(0);
+		case 1:Node p=new Node();
+				start=p;
+		       create(start);
+		       display(start);
+		       break;
+		       default: System.out.println("Wrong input");
+		}
+		
+		
+		
+		
+	}
+
+}

@@ -2,5 +2,6 @@
 using namespace std;
 int main()
 {
-  cout<<"Hi I am prabhat kumar singh. I am contributing in Hacktoberfest 2023 :)";
+  cout<<"My Name is prabhat kumar singh. I am contributing to Hacktoberfest open source contribution 2023 :)";
+  return 0;
 }

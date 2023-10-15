@@ -1,7 +1,7 @@
-public class my_name {
- 
+public class My_name {
+
     public static void main(String[] args) {
-     System.out.println("My name is Moksh Gupta, I am Contributing in Hacktober Open Source Project");
+        System.err.println("My name is Padmaja, I am Contributing in Hacktober Open Source Project");
     }
     
-   }
+}

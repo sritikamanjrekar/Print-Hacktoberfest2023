@@ -1,0 +1,53 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(10, 35px);
+    grid-gap: 3px;
+    margin: 5px;
+	align-items: center;
+    justify-content: center;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000000;
+    display: flex;
+	font-size: 1rem;
+	color:blue;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.cell:hover{
+transform: scale(1.2);
+}
+.cell:active{
+transform: scale(1);
+}
+.back{
+background-color:#D6D6D6;
+margin-top: 60px ;
+align-items: center;
+width: 420px;
+height: 360px;
+}
+
+.title{
+    margin: 20px;
+}
+
+.names{
+	font-size: 2rem;
+    margin: 10px;
+}
+
+body{
+    margin: 0;
+    background-color: #333;
+    display:flex;
+    align-items: center;
+    font-size: 3rem;
+    flex-direction: column;
+    color:white;
+}
+

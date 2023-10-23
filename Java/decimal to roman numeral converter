@@ -1,0 +1,116 @@
+import java.util.*;
+public class dtr
+{
+    public static void main()
+    {
+    Scanner sc=new Scanner(System.in);
+    String rm="";
+        rm="";
+    int dc=sc.nextInt();
+    int tmp=0;
+    int chk=0;
+        if(dc>3999)
+        {
+        System.out.println("INVALID INPUT");
+        chk=-1;
+    }
+    else
+    {
+    if(dc%1000!=dc)
+        {
+            tmp=dc-(dc%1000);
+            while(tmp!=0)
+            {
+                rm=rm+"M";
+                tmp-=1000;
+            }
+            dc=dc%1000;
+        }
+    if(dc%500!=dc)
+    {
+        if(dc>=900)
+        {
+            rm=rm+"CM";
+            dc=dc%100;
+        }
+        else
+        {
+            rm=rm+"D";
+            dc=dc%500;
+        }
+    }
+    if(dc%100!=dc)
+    {
+        if(dc>=400)
+            rm=rm+"CD";
+        else
+        {
+            tmp=dc-(dc%100);
+            while(tmp!=0)
+            {
+                rm=rm+"C";
+                tmp-=100;
+            }
+        }
+        dc=dc%100;
+    }
+    if(dc%50!=dc)
+    {
+        if(dc>=90)
+        {
+            rm=rm+"XC";
+            dc=dc%10;
+        }
+        else
+        {
+            rm=rm+"L";
+            dc=dc%50;
+        }
+    }
+    if(dc%10!=dc)
+    {
+        if(dc>=40)
+            rm=rm+"XL";
+        else
+        {
+            tmp=dc-(dc%10);
+            while(tmp!=0)
+            {
+                rm=rm+"X";
+                tmp-=10;
+            }
+        }
+        dc=dc%10;
+    }
+    if(dc%5!=dc)
+    {
+        if(dc>=9)
+        {
+            rm=rm+"IX";
+            dc=dc%1;
+        }
+        else
+        {
+            rm=rm+"V";
+            dc=dc%5;
+        }
+    }
+    if(dc%1!=dc)
+    {
+        if(dc>=4)
+            rm=rm+"IV";
+        else
+        {
+            tmp=dc-(dc%1);
+            while(tmp!=0)
+            {
+                rm=rm+"I";
+                tmp-=1;
+            }
+        }
+        dc=dc%1;
+    }
+    System.out.println(rm);
+}
+}
+}

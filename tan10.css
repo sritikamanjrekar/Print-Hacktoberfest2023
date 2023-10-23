@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: black;
+}
+
+.top{
+    height: 300px;
+}
+.container{
+    text-align: centre;
+    margin-top: 25px;
+    background-color: black;
+    
+
+}
+
+.container h1{
+   font-size: 50px;
+   color: white; 
+   margin-bottom: 10px;
+   text-align: center;
+   box-shadow: darkblue;
+   
+}
+
+.about_us{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+.about_us img{
+    flex:0 50%;
+    max-width: 100%;
+    height: 300px;
+    width: 800px;
+    margin-right: 50px;
+    
+
+}
+
+.content{
+    padding: 35px;
+}
+
+.content h2{
+    color:white;
+    font-size : 30px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+
+
+.content p{
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px 0px;
+}
+
+.middle{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+.middle img{
+    flex:0 50%;
+    max-width: 80%;
+    height: 300px;
+    margin-right: 50px;
+    width:330px;
+}
+
+.middles{
+    padding: 35px;
+}
+
+.middles h2{
+    color:white;
+    font-size : 30px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+
+.middles p{
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px 0px;
+   
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap:1.5rem;
+   
+}
+
+h2{
+    color:white;
+    font-size : 30px;
+    line-height: 1.5;
+    margin: 15px 0px;
+    padding-left: 40px;;
+}
+
+
+
+.side{
+    padding: 35px;
+}
+.side h2{
+  font-size: var(--h2-font);
+  line-height: 1;
+  color:white;
+}
+.side p{
+    color: white;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px 0px;
+}
+.team{
+    display: inline-flex;
+}
+
+.bottom img{
+    flex:0 50%;
+    max-width: 80%;
+    height: 300px;
+    margin-right: 50px;
+    width:330px;
+
+}
+ .bottomone img{
+    flex:0 50%;
+    max-width: 80%;
+    height: 300px;
+    margin-right: 50px;
+    width:330px;
+ }
+ .bottomtwo img{
+    flex:0 50%;
+    max-width: 80%;
+    height: 300px;
+    margin-right: 50px;
+    width:330px;
+ }
+
+.bottomthree img{
+    flex:0 50%;
+    max-width: 80%;
+    height: 300px;
+    margin-right: 50px;
+    width:330px;
+}
+
+
+ 
+
+@media(max-width: 768px){
+    .about_us{
+        flex-direction: column;
+    }
+    .about_us img{
+        flex: 0 100%;
+        max-width: 100%;
+    }
+    .content{
+        flex: 0 100%;
+        max-width: 100%;
+        padding: 15px;
+    }
+}
+
